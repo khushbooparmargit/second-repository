@@ -1,0 +1,107 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background: url(img.jpeg);
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {}
+
+.nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul li {
+    display: inline-block;
+    padding: 10px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    padding-left: 20px;
+}
+
+.bgimg {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 169px;
+    padding-bottom: 160px;
+}
+
+.bgimg .h h1 {
+
+    letter-spacing: 1px;
+    font-size: 50PX;
+}
+
+.bgimg .p {
+    font-weight: 500;
+}
+
+.bgimg .bt input {
+    padding: 10px;
+}
+
+.about {
+    background-color: white;
+    padding: 89px 30px;
+}
+
+.ab {
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+}
+
+.box i {
+    font-size: 60px;
+    text-align: center;
+}
+
+.forth {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.904);
+    padding: 35px;
+}
+.forthone button{
+    background-color: black;
+    color: white;
+    padding: 3px 10px;
+    border: none;
+}
+.forthtwo img{
+    height: 264px;
+
+}
+.fifth{
+    background-color: white;
+    padding: 30px;
+}
+.teampic{
+    display: flex;
+}
+
+.teambox{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.teambox img{
+    width: 200px;
+    
+}
